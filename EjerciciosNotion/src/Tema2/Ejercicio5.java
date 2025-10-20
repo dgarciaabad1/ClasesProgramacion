@@ -34,6 +34,6 @@ public class Ejercicio5 {
         System.out.println("¿Puedes alquilar un coche? " + (edadtotal&&carnet));
         //esta última línea utiliza el AND (&&) para comprobar que ambos valores son true
         // de ser así te devuelve true, es decir, tiene lo necesario para alquilar coche
-        
+
     }
 }
