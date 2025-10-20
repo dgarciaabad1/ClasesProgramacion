@@ -21,7 +21,7 @@ public class Ejercicio7 {
         Scanner sc2 = new Scanner(System.in);
         boolean estudiante = sc2.nextBoolean();
 
-        
+
         System.out.println("Eres estudiante: " + estudiante);
         System.out.println("NO eres estudiante: " + (!estudiante));
         System.out.println("Tienes descuento joven: " + (edad<=26));
