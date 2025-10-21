@@ -13,17 +13,16 @@ public class Ejercicio9 {
         y si tiene sobresaliente (>=9). Muestra todos los resultados.
          */
 
+        Scanner sc = new Scanner (System.in);
+
         System.out.println("Introduce la primera nota");
-        Scanner sc1 = new Scanner (System.in);
-        int nota1 = sc1.nextInt();
+        double nota1 = sc.nextInt();
 
         System.out.println("Introduce la segunda nota");
-        Scanner sc2 = new Scanner (System.in);
-        int nota2 = sc2.nextInt();
+        double nota2 = sc.nextInt();
 
         System.out.println("Introduce la tercera nota");
-        Scanner sc3 = new Scanner (System.in);
-        int nota3 = sc3.nextInt();
+        double nota3 = sc.nextInt();
 
         double media = (nota1+nota2+nota3)/3;
 

@@ -12,13 +12,13 @@ public class Ejercicio6 {
     Usa operadores aritméticos y muestra los pasos del cálculo
      */
 
-        System.out.println("Introduce precio producto");
         Scanner sc = new Scanner(System.in);
+
+        System.out.println("Introduce precio producto");
         int precio = sc.nextInt();
 
         System.out.println("Introduce porcentaje descuento");
-        Scanner sc2 = new Scanner(System.in);
-        int descuento = sc2.nextInt();
+        int descuento = sc.nextInt();
 
         int resultado = (precio*descuento)/100;
         int preciofinal = precio-resultado;

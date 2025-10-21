@@ -16,9 +16,7 @@ public class Ejercicio1 {
         Scanner sc = new Scanner(System.in);
         int num1 = sc.nextInt();
 
-
         System.out.println("Introduce numero 2.");
-        Scanner sc2 = new Scanner(System.in);
         int num2 = sc.nextInt();
 
         System.out.println("Los numeros que has escogido son:");

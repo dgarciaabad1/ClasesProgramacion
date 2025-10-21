@@ -11,17 +11,16 @@ public class Ejercicio8 {
     LA SUMA / EL PROMEDIO / RESULTADO MULTIPLICCAR PRIMERO POR SEGUNDO Y DIVIDIRLO POR EL TERCERO
      */
 
+        Scanner sc = new Scanner (System.in);
+
         System.out.println("Introduce el primer numero");
-        Scanner sc1 = new Scanner (System.in);
-        int num1 = sc1.nextInt();
+        int num1 = sc.nextInt();
 
         System.out.println("Introduce el segundo numero");
-        Scanner sc2 = new Scanner (System.in);
-        int num2 = sc2.nextInt();
+        int num2 = sc.nextInt();
 
         System.out.println("Introduce el tercer numero");
-        Scanner sc3 = new Scanner (System.in);
-        int num3 = sc3.nextInt();
+        int num3 = sc.nextInt();
 
         int total = (num1+num2+num3);
         System.out.println("Suma de los tres numeros: " + total);

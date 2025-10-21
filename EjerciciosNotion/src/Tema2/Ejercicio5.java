@@ -21,8 +21,7 @@ public class Ejercicio5 {
         //esto pide la edad y la guarda en una variable de entero
 
         System.out.println("¿Tienes carnet de conducir?");
-        Scanner sc2 = new Scanner(System.in);
-        boolean carnet = sc2.nextBoolean();
+        boolean carnet = sc.nextBoolean();
         //esto pide si tiene carnet y la guarda en una variable de booleano
 
         boolean edadtotal = edad>=21;

@@ -13,13 +13,13 @@ public class Ejercicio7 {
         DESCUENTO ESTUDIANTE / DESCUENTO ESPECIAL (MENOR 26 + ESTUDIANTE)
          */
 
-        System.out.println("Introduce tu edad");
         Scanner sc = new Scanner(System.in);
+
+        System.out.println("Introduce tu edad");
         int edad = sc.nextInt();
 
         System.out.println("¿Eres estudiante?");
-        Scanner sc2 = new Scanner(System.in);
-        boolean estudiante = sc2.nextBoolean();
+        boolean estudiante = sc.nextBoolean();
 
 
         System.out.println("Eres estudiante: " + estudiante);

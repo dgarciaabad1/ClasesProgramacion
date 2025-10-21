@@ -17,7 +17,6 @@ public class Ejercicio2 {
         int num1 = sc.nextInt();
 
         System.out.println("Introduce numero 2.");
-        Scanner sc2 = new Scanner(System.in);
         int num2 = sc.nextInt();
 
         boolean mayor = num1>num2;
