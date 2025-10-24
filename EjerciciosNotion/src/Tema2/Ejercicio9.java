@@ -35,5 +35,7 @@ public class Ejercicio9 {
         System.out.println( "¿Ha aprobado? (>=5): " + aprobado + "\n" +
                             "¿Tiene notable? (>=7) " + notable + "\n" +
                             "¿Tiene sobresaliente? (>=9) " + sobresaliente);
+
+
     }
 }
